@@ -38,7 +38,7 @@ class Parser extends InternalParser {
         $_a = [
             'query' => [
                 'query_string' => [
-                    'default_operator' => 'AND',
+                    'default_operator' => 'OR',
                     'allow_leading_wildcard' => true,
                     'analyze_wildcard' => true,
                     'query' => $query,
